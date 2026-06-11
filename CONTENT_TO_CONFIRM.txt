@@ -1,12 +1,28 @@
-CONTENT TO CONFIRM BEFORE FINAL LAUNCH
+# iTop Website v4 - Multi-page polished version
 
-1. Real Google Business Profile link.
-2. Real Google reviews or review screenshots.
-3. Final repair warranty wording and exclusions.
-4. Exact repair price list or “from” prices if the shop wants prices online.
-5. Final accessory categories and wholesale product list.
-6. Social media links.
-7. Domain name choice.
-8. Whether online booking should stay WhatsApp-only or become a real booking calendar later.
-9. Whether refurbished phones should be shown as live stock later.
-10. Final business registration / terms / privacy policy if required.
+This is the polished multi-page foundation for iTop Wholesale & Retail.
+
+## Pages
+- index.html — Home
+- repairs.html — iPhone & Samsung repairs
+- accessories.html — Accessories
+- wholesale.html — Wholesale / trade supply
+- buy-sell.html — Buy / sell / refurbished device enquiries
+- business-customers.html — Business customer support
+- warranty-faq.html — Warranty & FAQ
+- contact.html — Contact and enquiry
+
+## Business details used
+- Business name: iTop
+- Address: 160 Rushey Green, London SE6 4HQ
+- Phone / WhatsApp: 07760 616 466
+- Email: info.itop@gmail.com
+- Opening hours: 10:00 – 21:00
+- Slogan: Repair. Protect. Upgrade. Wholesale — all from iTop.
+
+## Next items to confirm
+- Real Google review snippets
+- Social media links
+- Final warranty wording
+- Repair price list or starting prices
+- Final domain name
