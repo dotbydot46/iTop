@@ -1,28 +1,28 @@
-# iTop Website v2
+# iTop Website v3 — Multi-page foundation
 
-This is the polished second version of the iTop website concept.
+This is the first proper multi-page version of the iTop website.
 
-## Included
-- Responsive homepage
-- iPhone and Samsung repair focus
-- Enquiry-only repair/product form using WhatsApp
-- 6 / 12 / 18 month warranty section
-- Accessories and wholesale sections
-- Google reviews placeholder section
-- Contact details: phone, WhatsApp, email, address, opening hours
+## Pages included
+- index.html — Home
+- repairs.html — iPhone & Samsung repairs
+- accessories.html — Retail accessories
+- wholesale.html — Wholesale supply
+- buy-sell.html — Buy / Sell / refurbished device enquiries
+- business-customers.html — Business customer support
+- warranty-faq.html — Warranty & FAQ
+- contact.html — Contact, map and enquiry form
 
-## Business details used
+## Business details included
 - Business name: iTop
 - Slogan: Your local tech hub for repairs, accessories and wholesale supply.
 - Address: 160 Rushey Green, London SE6 4HQ
 - Opening hours: 10:00 – 21:00
 - Phone / WhatsApp: 07760 616 466
 - Email: info.itop@gmail.com
+- Warranty options: 6 / 12 / 18 month options on selected repairs
 
-## Next to confirm
-- Final Google Business Profile link
-- Real Google reviews text
-- Exact warranty terms and exclusions
-- Repair price list
-- Social media links
-- Final domain name
+## How the forms work
+The forms are enquiry-only. They create a WhatsApp message to 07760 616 466. No online payment is taken.
+
+## Next step
+Review each page on desktop and mobile. Then improve one page at a time: Repairs first, then Accessories, Wholesale, Buy/Sell, Warranty/FAQ and Contact.
