@@ -1,35 +1,38 @@
-# iTop Website v4 - Multi-page polished version
+# iTop Website v11
 
-This is the polished multi-page foundation for iTop Wholesale & Retail.
+Multi-page enquiry-based website for iTop.
 
-## Pages
-- index.html — Home
-- repairs.html — iPhone & Samsung repairs
-- accessories.html — Accessories
-- wholesale.html — Wholesale / trade supply
-- buy-sell.html — Buy / sell / refurbished device enquiries
-- business-customers.html — Business customer support
-- warranty-faq.html — Warranty & FAQ
-- contact.html — Contact and enquiry
-
-## Business details used
-- Business name: iTop
-- Address: 160 Rushey Green, London SE6 4HQ
+Business details used:
+- Name: iTop
+- Address: iTop, 160 Rushey Green, London SE6 4HQ
+- Opening hours: 10:00 – 21:00
 - Phone / WhatsApp: 07760 616 466
 - Email: info.itop@gmail.com
-- Opening hours: 10:00 – 21:00
-- Slogan: Repair. Protect. Upgrade. Wholesale — all from iTop.
 
-## Next items to confirm
-- Real Google review snippets
-- Social media links
-- Final warranty wording
-- Repair price list or starting prices
-- Final domain name
+Current pages:
+- Home
+- Repairs
+- Accessories
+- Wholesale
+- Buy / Sell
+- Warranty & FAQ
+- Contact
+
+v11 updates:
+- Completed and polished the Contact page.
+- Updated address format across the site.
+- Added Google Maps direction links and map embed using the full iTop address.
+- Added LocalBusiness schema on Home and Contact pages.
+- Improved global spacing, cards, footer logo sizing, contact method cards and mobile polish.
+- Kept the website enquiry-based, with WhatsApp message forms instead of online payment.
+
+Next suggested pages/steps:
+1. Final check on desktop and mobile.
+2. Add real Google reviews and Google Business Profile link.
+3. Add real repair pricing/warranty per repair when confirmed.
+4. Add real refurbished phone stock and warranty details per item.
+5. Upload to GitHub Pages or Netlify.
 
 
-V5 polish: transparent header/footer logo, service card spacing fixes, stronger home wording, cleaner repair page copy, improved footer styling and responsive adjustments.
-
-
-## v6 update
-Accessories page completed with category sections, demo product cards, local SVG placeholders, in-store fitting/support wording, 18+ vape notice, and WhatsApp accessory enquiry form.
+## v12 final-ready update
+Overall polish, address confirmation, contact page completion, clean navigation without Business Customers, deployment files added (`robots.txt`, `sitemap.xml`, `.nojekyll`, `404.html`) and GitHub Pages readiness checks.

@@ -1,3 +1,4 @@
+
 const navToggle = document.querySelector('[data-nav-toggle]');
 const navMenu = document.querySelector('[data-nav-menu]');
 if (navToggle && navMenu) {
@@ -5,6 +6,10 @@ if (navToggle && navMenu) {
     const isOpen = navMenu.classList.toggle('open');
     navToggle.setAttribute('aria-expanded', String(isOpen));
   });
+  navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    navMenu.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
 }
 
 function buildWhatsAppMessage(form) {
@@ -13,8 +18,8 @@ function buildWhatsAppMessage(form) {
   const lines = [];
   if (type === 'repair') lines.push('Hi iTop, I would like a repair quote.');
   else if (type === 'wholesale') lines.push('Hi iTop, I would like to ask about wholesale supply.');
-  else if (type === 'business') lines.push('Hi iTop, I would like to ask about business customer support.');
-  else if (type === 'accessories') lines.push('Hi iTop, I would like to ask about accessories stock.');
+    else if (type === 'accessories') lines.push('Hi iTop, I would like to ask about accessories stock.');
+  else if (type === 'buy-sell') lines.push('Hi iTop, I would like to ask about buying, selling or upgrading a device.');
   else lines.push('Hi iTop, I would like to make an enquiry.');
   for (const [key, value] of data.entries()) {
     if (!value) continue;
@@ -30,4 +35,16 @@ document.querySelectorAll('[data-whatsapp-form]').forEach(form => {
     const text = encodeURIComponent(buildWhatsAppMessage(form));
     window.open(`https://wa.me/447760616466?text=${text}`, '_blank', 'noopener');
   });
+});
+
+
+document.querySelectorAll('[data-current-year]').forEach(el => {
+  el.textContent = new Date().getFullYear();
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && navMenu && navToggle) {
+    navMenu.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }
 });

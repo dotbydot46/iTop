@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dotbydot46.github.io/iTop/sitemap.xml
