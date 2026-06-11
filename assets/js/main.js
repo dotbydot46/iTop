@@ -14,6 +14,7 @@ function buildWhatsAppMessage(form) {
   if (type === 'repair') lines.push('Hi iTop, I would like a repair quote.');
   else if (type === 'wholesale') lines.push('Hi iTop, I would like to ask about wholesale supply.');
   else if (type === 'business') lines.push('Hi iTop, I would like to ask about business customer support.');
+  else if (type === 'accessories') lines.push('Hi iTop, I would like to ask about accessories stock.');
   else lines.push('Hi iTop, I would like to make an enquiry.');
   for (const [key, value] of data.entries()) {
     if (!value) continue;

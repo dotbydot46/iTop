@@ -29,3 +29,7 @@ This is the polished multi-page foundation for iTop Wholesale & Retail.
 
 
 V5 polish: transparent header/footer logo, service card spacing fixes, stronger home wording, cleaner repair page copy, improved footer styling and responsive adjustments.
+
+
+## v6 update
+Accessories page completed with category sections, demo product cards, local SVG placeholders, in-store fitting/support wording, 18+ vape notice, and WhatsApp accessory enquiry form.
